@@ -1,0 +1,8 @@
+<p>botones1 works!
+    {{this.tipo}}
+</p>
+
+<input [type]="this.tipo">
+<input type="button" (click)="CambiarTipo()" value="Cambiar">
+
+<input type="text" [(ngModel)]="this.tipo" [value]="this.tipo">
